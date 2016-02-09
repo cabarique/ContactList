@@ -8,25 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		697609A8B5B239D5E8337FFC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1324BDDFE0AB1FDC0A0527 /* Pods.framework */; };
-		DA045FA71C58418E00026DE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA045FA61C58418E00026DE6 /* AppDelegate.swift */; };
-		DA045FA91C58418E00026DE6 /* ContactsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA045FA81C58418E00026DE6 /* ContactsListViewController.swift */; };
-		DA045FAE1C58418E00026DE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA045FAD1C58418E00026DE6 /* Assets.xcassets */; };
-		DA045FB11C58418E00026DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA045FAF1C58418E00026DE6 /* LaunchScreen.storyboard */; };
-		DA045FBA1C58465F00026DE6 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA045FB81C58465F00026DE6 /* CategoriesViewController.swift */; };
-		DA045FBB1C58465F00026DE6 /* CategoriesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA045FB91C58465F00026DE6 /* CategoriesView.xib */; };
-		DA045FBE1C5846CB00026DE6 /* StoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA045FBD1C5846CB00026DE6 /* StoreView.xib */; };
-		DA045FC11C58520D00026DE6 /* ContactsListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA045FC01C58520C00026DE6 /* ContactsListAPI.swift */; };
-		DA045FC31C58530F00026DE6 /* ContactsListClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA045FC21C58530F00026DE6 /* ContactsListClient.swift */; };
-		DA045FC51C58533400026DE6 /* ContactsListClientImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA045FC41C58533400026DE6 /* ContactsListClientImp.swift */; };
-		DA045FCC1C58575F00026DE6 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA045FCB1C58575F00026DE6 /* AppModel.swift */; };
-		DA1AEAF71C6964650059887D /* ContactsListVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEAF61C6964650059887D /* ContactsListVO.swift */; };
-		DA1AEAF91C69649B0059887D /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEAF81C69649B0059887D /* ContactModel.swift */; };
-		DA1AEAFB1C6965880059887D /* PhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEAFA1C6965880059887D /* PhoneModel.swift */; };
-		DA1AEAFD1C6965AF0059887D /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEAFC1C6965AF0059887D /* AddressModel.swift */; };
-		DA1AEB001C6966110059887D /* EmailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEAFF1C6966110059887D /* EmailModel.swift */; };
-		DA5258401C5E64200070D8C9 /* AppsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52583F1C5E64200070D8C9 /* AppsDAO.swift */; };
-		DA8B8AFF1C5D7799000778C2 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8B8AFD1C5D7799000778C2 /* ContactDetailViewController.swift */; };
-		DA8B8B001C5D7799000778C2 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8B8AFE1C5D7799000778C2 /* DetailView.xib */; };
+		DA1AEB081C699F900059887D /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB041C699F900059887D /* AddressModel.swift */; };
+		DA1AEB091C699F900059887D /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB051C699F900059887D /* ContactModel.swift */; };
+		DA1AEB0A1C699F900059887D /* EmailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB061C699F900059887D /* EmailModel.swift */; };
+		DA1AEB0B1C699F900059887D /* PhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB071C699F900059887D /* PhoneModel.swift */; };
+		DA1AEB0D1C699FB60059887D /* ContactsListVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB0C1C699FB60059887D /* ContactsListVO.swift */; };
+		DA1AEB111C699FC70059887D /* ContactsListClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB0E1C699FC70059887D /* ContactsListClient.swift */; };
+		DA1AEB121C699FC70059887D /* ContactsListClientImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB0F1C699FC70059887D /* ContactsListClientImp.swift */; };
+		DA1AEB151C699FE00059887D /* ContactsListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB141C699FE00059887D /* ContactsListAPI.swift */; };
+		DA1AEB191C699FF80059887D /* CategoriesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1AEB161C699FF80059887D /* CategoriesView.xib */; };
+		DA1AEB1A1C699FF80059887D /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1AEB171C699FF80059887D /* DetailView.xib */; };
+		DA1AEB1B1C699FF80059887D /* StoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1AEB181C699FF80059887D /* StoreView.xib */; };
+		DA1AEB221C69A0170059887D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB1C1C69A0170059887D /* AppDelegate.swift */; };
+		DA1AEB231C69A0170059887D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1AEB1D1C69A0170059887D /* Assets.xcassets */; };
+		DA1AEB241C69A0170059887D /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB1E1C69A0170059887D /* CategoriesViewController.swift */; };
+		DA1AEB251C69A0170059887D /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB1F1C69A0170059887D /* ContactDetailViewController.swift */; };
+		DA1AEB261C69A0170059887D /* ContactsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB201C69A0170059887D /* ContactsListViewController.swift */; };
+		DA1AEB271C69A0170059887D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA1AEB211C69A0170059887D /* Info.plist */; };
+		DA1AEB2A1C69A09F0059887D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1AEB281C69A09F0059887D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,26 +33,24 @@
 		5FB97081F1F72F54DB3EF1E2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8EDA369B68C1875FE88A6357 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		DA045FA31C58418E00026DE6 /* ContactsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA045FA61C58418E00026DE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA045FA81C58418E00026DE6 /* ContactsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListViewController.swift; sourceTree = "<group>"; };
-		DA045FAD1C58418E00026DE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DA045FB01C58418E00026DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DA045FB21C58418E00026DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA045FB81C58465F00026DE6 /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
-		DA045FB91C58465F00026DE6 /* CategoriesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoriesView.xib; sourceTree = "<group>"; };
-		DA045FBD1C5846CB00026DE6 /* StoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoreView.xib; sourceTree = "<group>"; };
-		DA045FC01C58520C00026DE6 /* ContactsListAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsListAPI.swift; sourceTree = "<group>"; };
-		DA045FC21C58530F00026DE6 /* ContactsListClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsListClient.swift; sourceTree = "<group>"; };
-		DA045FC41C58533400026DE6 /* ContactsListClientImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsListClientImp.swift; sourceTree = "<group>"; };
-		DA045FCB1C58575F00026DE6 /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
-		DA1AEAF61C6964650059887D /* ContactsListVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsListVO.swift; sourceTree = "<group>"; };
-		DA1AEAF81C69649B0059887D /* ContactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
-		DA1AEAFA1C6965880059887D /* PhoneModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneModel.swift; sourceTree = "<group>"; };
-		DA1AEAFC1C6965AF0059887D /* AddressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
-		DA1AEAFF1C6966110059887D /* EmailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailModel.swift; sourceTree = "<group>"; };
-		DA52583F1C5E64200070D8C9 /* AppsDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsDAO.swift; sourceTree = "<group>"; };
-		DA8B8AFD1C5D7799000778C2 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
-		DA8B8AFE1C5D7799000778C2 /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		DA1AEB041C699F900059887D /* AddressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressModel.swift; path = ContactList/AddressModel.swift; sourceTree = SOURCE_ROOT; };
+		DA1AEB051C699F900059887D /* ContactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactModel.swift; path = ContactList/ContactModel.swift; sourceTree = SOURCE_ROOT; };
+		DA1AEB061C699F900059887D /* EmailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmailModel.swift; path = ContactList/EmailModel.swift; sourceTree = SOURCE_ROOT; };
+		DA1AEB071C699F900059887D /* PhoneModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhoneModel.swift; path = ContactList/PhoneModel.swift; sourceTree = SOURCE_ROOT; };
+		DA1AEB0C1C699FB60059887D /* ContactsListVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsListVO.swift; path = ContactList/ContactsListVO.swift; sourceTree = SOURCE_ROOT; };
+		DA1AEB0E1C699FC70059887D /* ContactsListClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsListClient.swift; path = ContactList/ContactsListClient.swift; sourceTree = SOURCE_ROOT; };
+		DA1AEB0F1C699FC70059887D /* ContactsListClientImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsListClientImp.swift; path = ContactList/ContactsListClientImp.swift; sourceTree = SOURCE_ROOT; };
+		DA1AEB141C699FE00059887D /* ContactsListAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsListAPI.swift; path = ContactList/ContactsListAPI.swift; sourceTree = SOURCE_ROOT; };
+		DA1AEB161C699FF80059887D /* CategoriesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CategoriesView.xib; path = ContactList/CategoriesView.xib; sourceTree = SOURCE_ROOT; };
+		DA1AEB171C699FF80059887D /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailView.xib; path = ContactList/DetailView.xib; sourceTree = SOURCE_ROOT; };
+		DA1AEB181C699FF80059887D /* StoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StoreView.xib; path = ContactList/StoreView.xib; sourceTree = SOURCE_ROOT; };
+		DA1AEB1C1C69A0170059887D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ContactList/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		DA1AEB1D1C69A0170059887D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ContactList/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		DA1AEB1E1C69A0170059887D /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoriesViewController.swift; path = ContactList/CategoriesViewController.swift; sourceTree = SOURCE_ROOT; };
+		DA1AEB1F1C69A0170059887D /* ContactDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactDetailViewController.swift; path = ContactList/ContactDetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		DA1AEB201C69A0170059887D /* ContactsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsListViewController.swift; path = ContactList/ContactsListViewController.swift; sourceTree = SOURCE_ROOT; };
+		DA1AEB211C69A0170059887D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ContactList/Info.plist; sourceTree = SOURCE_ROOT; };
+		DA1AEB291C69A09F0059887D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ContactList/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +85,7 @@
 		DA045F9A1C58418D00026DE6 = {
 			isa = PBXGroup;
 			children = (
-				DA045FA51C58418E00026DE6 /* AppStore */,
+				DA045FA51C58418E00026DE6 /* ContactList */,
 				DA045FA41C58418E00026DE6 /* Products */,
 				D6DB95EEAE17081F793E149F /* Pods */,
 				12D46446603BEA031419D683 /* Frameworks */,
@@ -103,30 +100,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA045FA51C58418E00026DE6 /* AppStore */ = {
+		DA045FA51C58418E00026DE6 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
-				DA52583E1C5E63FF0070D8C9 /* DAO */,
+				DA1AEB281C69A09F0059887D /* LaunchScreen.storyboard */,
 				DA045FCA1C58574D00026DE6 /* Model */,
 				DA045FBF1C584E9700026DE6 /* ContactsAPI */,
 				DA045FBC1C58466700026DE6 /* Views */,
-				DA045FA61C58418E00026DE6 /* AppDelegate.swift */,
-				DA045FA81C58418E00026DE6 /* ContactsListViewController.swift */,
-				DA045FB81C58465F00026DE6 /* CategoriesViewController.swift */,
-				DA8B8AFD1C5D7799000778C2 /* ContactDetailViewController.swift */,
-				DA045FAD1C58418E00026DE6 /* Assets.xcassets */,
-				DA045FAF1C58418E00026DE6 /* LaunchScreen.storyboard */,
-				DA045FB21C58418E00026DE6 /* Info.plist */,
+				DA1AEB1C1C69A0170059887D /* AppDelegate.swift */,
+				DA1AEB1D1C69A0170059887D /* Assets.xcassets */,
+				DA1AEB1E1C69A0170059887D /* CategoriesViewController.swift */,
+				DA1AEB1F1C69A0170059887D /* ContactDetailViewController.swift */,
+				DA1AEB201C69A0170059887D /* ContactsListViewController.swift */,
+				DA1AEB211C69A0170059887D /* Info.plist */,
 			);
+			name = ContactList;
 			path = AppStore;
 			sourceTree = "<group>";
 		};
 		DA045FBC1C58466700026DE6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DA045FB91C58465F00026DE6 /* CategoriesView.xib */,
-				DA045FBD1C5846CB00026DE6 /* StoreView.xib */,
-				DA8B8AFE1C5D7799000778C2 /* DetailView.xib */,
+				DA1AEB161C699FF80059887D /* CategoriesView.xib */,
+				DA1AEB171C699FF80059887D /* DetailView.xib */,
+				DA1AEB181C699FF80059887D /* StoreView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -135,9 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				DA045FC71C58567700026DE6 /* VOs */,
-				DA045FC01C58520C00026DE6 /* ContactsListAPI.swift */,
-				DA045FC21C58530F00026DE6 /* ContactsListClient.swift */,
-				DA045FC41C58533400026DE6 /* ContactsListClientImp.swift */,
+				DA1AEB141C699FE00059887D /* ContactsListAPI.swift */,
+				DA1AEB0E1C699FC70059887D /* ContactsListClient.swift */,
+				DA1AEB0F1C699FC70059887D /* ContactsListClientImp.swift */,
 			);
 			name = ContactsAPI;
 			sourceTree = "<group>";
@@ -145,7 +142,7 @@
 		DA045FC71C58567700026DE6 /* VOs */ = {
 			isa = PBXGroup;
 			children = (
-				DA1AEAF61C6964650059887D /* ContactsListVO.swift */,
+				DA1AEB0C1C699FB60059887D /* ContactsListVO.swift */,
 			);
 			name = VOs;
 			sourceTree = "<group>";
@@ -153,21 +150,12 @@
 		DA045FCA1C58574D00026DE6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DA045FCB1C58575F00026DE6 /* AppModel.swift */,
-				DA1AEAF81C69649B0059887D /* ContactModel.swift */,
-				DA1AEAFA1C6965880059887D /* PhoneModel.swift */,
-				DA1AEAFC1C6965AF0059887D /* AddressModel.swift */,
-				DA1AEAFF1C6966110059887D /* EmailModel.swift */,
+				DA1AEB041C699F900059887D /* AddressModel.swift */,
+				DA1AEB051C699F900059887D /* ContactModel.swift */,
+				DA1AEB061C699F900059887D /* EmailModel.swift */,
+				DA1AEB071C699F900059887D /* PhoneModel.swift */,
 			);
 			name = Model;
-			sourceTree = "<group>";
-		};
-		DA52583E1C5E63FF0070D8C9 /* DAO */ = {
-			isa = PBXGroup;
-			children = (
-				DA52583F1C5E64200070D8C9 /* AppsDAO.swift */,
-			);
-			name = DAO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,11 +220,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA8B8B001C5D7799000778C2 /* DetailView.xib in Resources */,
-				DA045FB11C58418E00026DE6 /* LaunchScreen.storyboard in Resources */,
-				DA045FAE1C58418E00026DE6 /* Assets.xcassets in Resources */,
-				DA045FBE1C5846CB00026DE6 /* StoreView.xib in Resources */,
-				DA045FBB1C58465F00026DE6 /* CategoriesView.xib in Resources */,
+				DA1AEB191C699FF80059887D /* CategoriesView.xib in Resources */,
+				DA1AEB1B1C699FF80059887D /* StoreView.xib in Resources */,
+				DA1AEB231C69A0170059887D /* Assets.xcassets in Resources */,
+				DA1AEB2A1C69A09F0059887D /* LaunchScreen.storyboard in Resources */,
+				DA1AEB1A1C699FF80059887D /* DetailView.xib in Resources */,
+				DA1AEB271C69A0170059887D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,30 +284,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA8B8AFF1C5D7799000778C2 /* ContactDetailViewController.swift in Sources */,
-				DA045FC11C58520D00026DE6 /* ContactsListAPI.swift in Sources */,
-				DA1AEB001C6966110059887D /* EmailModel.swift in Sources */,
-				DA1AEAF91C69649B0059887D /* ContactModel.swift in Sources */,
-				DA045FC51C58533400026DE6 /* ContactsListClientImp.swift in Sources */,
-				DA045FA91C58418E00026DE6 /* ContactsListViewController.swift in Sources */,
-				DA1AEAFB1C6965880059887D /* PhoneModel.swift in Sources */,
-				DA1AEAF71C6964650059887D /* ContactsListVO.swift in Sources */,
-				DA045FCC1C58575F00026DE6 /* AppModel.swift in Sources */,
-				DA045FC31C58530F00026DE6 /* ContactsListClient.swift in Sources */,
-				DA045FA71C58418E00026DE6 /* AppDelegate.swift in Sources */,
-				DA045FBA1C58465F00026DE6 /* CategoriesViewController.swift in Sources */,
-				DA5258401C5E64200070D8C9 /* AppsDAO.swift in Sources */,
-				DA1AEAFD1C6965AF0059887D /* AddressModel.swift in Sources */,
+				DA1AEB0A1C699F900059887D /* EmailModel.swift in Sources */,
+				DA1AEB0B1C699F900059887D /* PhoneModel.swift in Sources */,
+				DA1AEB151C699FE00059887D /* ContactsListAPI.swift in Sources */,
+				DA1AEB221C69A0170059887D /* AppDelegate.swift in Sources */,
+				DA1AEB261C69A0170059887D /* ContactsListViewController.swift in Sources */,
+				DA1AEB0D1C699FB60059887D /* ContactsListVO.swift in Sources */,
+				DA1AEB121C699FC70059887D /* ContactsListClientImp.swift in Sources */,
+				DA1AEB091C699F900059887D /* ContactModel.swift in Sources */,
+				DA1AEB081C699F900059887D /* AddressModel.swift in Sources */,
+				DA1AEB111C699FC70059887D /* ContactsListClient.swift in Sources */,
+				DA1AEB251C69A0170059887D /* ContactDetailViewController.swift in Sources */,
+				DA1AEB241C69A0170059887D /* CategoriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DA045FAF1C58418E00026DE6 /* LaunchScreen.storyboard */ = {
+		DA1AEB281C69A09F0059887D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA045FB01C58418E00026DE6 /* Base */,
+				DA1AEB291C69A09F0059887D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -415,7 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = AppStore/Info.plist;
+				INFOPLIST_FILE = ContactList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = inc.cabarique.ContactsList;
 				PRODUCT_NAME = ContactsList;
@@ -428,7 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = AppStore/Info.plist;
+				INFOPLIST_FILE = ContactList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = inc.cabarique.ContactsList;
 				PRODUCT_NAME = ContactsList;

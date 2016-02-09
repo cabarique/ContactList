@@ -1,6 +1,6 @@
 //
 //  AppDetailViewController.swift
-//  AppStore
+//  Contacts List
 //
 //  Created by luis cabarique on 1/30/16.
 //  Copyright © 2016 cabarique inc. All rights reserved.

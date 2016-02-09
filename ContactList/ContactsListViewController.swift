@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  AppStore
+//  Contacts List
 //
 //  Created by luis cabarique on 1/26/16.
 //  Copyright © 2016 cabarique inc. All rights reserved.
@@ -26,8 +26,6 @@ class ContactsListViewController: UIViewController, UITableViewDelegate, UITable
             appsTAble.reloadData()
         }
     }
-    
-    var appDAO: AppsDAO?
     
     var reachability: Reachability?
     
