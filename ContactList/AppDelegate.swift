@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Material
 
 let navigator = UINavigationController()
 
@@ -20,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         application.statusBarHidden = true
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        navigator.pushViewController(SideNavigationViewController(mainViewController: ContactsListViewController(), sideViewController: CategoriesViewController()), animated: true)
+        navigator.pushViewController(LoginViewController(), animated: true)
         window?.rootViewController = navigator        
         // Override point for customization after application launch.
         window?.makeKeyAndVisible()

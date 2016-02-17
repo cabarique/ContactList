@@ -16,16 +16,19 @@
 		DA1AEB111C699FC70059887D /* ContactsListClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB0E1C699FC70059887D /* ContactsListClient.swift */; };
 		DA1AEB121C699FC70059887D /* ContactsListClientImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB0F1C699FC70059887D /* ContactsListClientImp.swift */; };
 		DA1AEB151C699FE00059887D /* ContactsListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB141C699FE00059887D /* ContactsListAPI.swift */; };
-		DA1AEB191C699FF80059887D /* CategoriesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1AEB161C699FF80059887D /* CategoriesView.xib */; };
+		DA1AEB191C699FF80059887D /* SideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1AEB161C699FF80059887D /* SideView.xib */; };
 		DA1AEB1A1C699FF80059887D /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1AEB171C699FF80059887D /* DetailView.xib */; };
 		DA1AEB1B1C699FF80059887D /* StoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1AEB181C699FF80059887D /* StoreView.xib */; };
 		DA1AEB221C69A0170059887D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB1C1C69A0170059887D /* AppDelegate.swift */; };
 		DA1AEB231C69A0170059887D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1AEB1D1C69A0170059887D /* Assets.xcassets */; };
-		DA1AEB241C69A0170059887D /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB1E1C69A0170059887D /* CategoriesViewController.swift */; };
+		DA1AEB241C69A0170059887D /* SideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB1E1C69A0170059887D /* SideViewController.swift */; };
 		DA1AEB251C69A0170059887D /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB1F1C69A0170059887D /* ContactDetailViewController.swift */; };
 		DA1AEB261C69A0170059887D /* ContactsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1AEB201C69A0170059887D /* ContactsListViewController.swift */; };
 		DA1AEB271C69A0170059887D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA1AEB211C69A0170059887D /* Info.plist */; };
 		DA1AEB2A1C69A09F0059887D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1AEB281C69A09F0059887D /* LaunchScreen.storyboard */; };
+		DA48FDB41C7428B7009382E6 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA48FDB31C7428B7009382E6 /* images.xcassets */; };
+		DA670B8B1C74192600154BE2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA670B891C74192600154BE2 /* LoginViewController.swift */; };
+		DA670B8C1C74192600154BE2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA670B8A1C74192600154BE2 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,16 +44,19 @@
 		DA1AEB0E1C699FC70059887D /* ContactsListClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsListClient.swift; path = ContactList/ContactsListClient.swift; sourceTree = SOURCE_ROOT; };
 		DA1AEB0F1C699FC70059887D /* ContactsListClientImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsListClientImp.swift; path = ContactList/ContactsListClientImp.swift; sourceTree = SOURCE_ROOT; };
 		DA1AEB141C699FE00059887D /* ContactsListAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsListAPI.swift; path = ContactList/ContactsListAPI.swift; sourceTree = SOURCE_ROOT; };
-		DA1AEB161C699FF80059887D /* CategoriesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CategoriesView.xib; path = ContactList/CategoriesView.xib; sourceTree = SOURCE_ROOT; };
+		DA1AEB161C699FF80059887D /* SideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SideView.xib; path = ContactList/SideView.xib; sourceTree = SOURCE_ROOT; };
 		DA1AEB171C699FF80059887D /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailView.xib; path = ContactList/DetailView.xib; sourceTree = SOURCE_ROOT; };
 		DA1AEB181C699FF80059887D /* StoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StoreView.xib; path = ContactList/StoreView.xib; sourceTree = SOURCE_ROOT; };
 		DA1AEB1C1C69A0170059887D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ContactList/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		DA1AEB1D1C69A0170059887D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ContactList/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		DA1AEB1E1C69A0170059887D /* CategoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoriesViewController.swift; path = ContactList/CategoriesViewController.swift; sourceTree = SOURCE_ROOT; };
+		DA1AEB1E1C69A0170059887D /* SideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SideViewController.swift; path = ContactList/SideViewController.swift; sourceTree = SOURCE_ROOT; };
 		DA1AEB1F1C69A0170059887D /* ContactDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactDetailViewController.swift; path = ContactList/ContactDetailViewController.swift; sourceTree = SOURCE_ROOT; };
 		DA1AEB201C69A0170059887D /* ContactsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsListViewController.swift; path = ContactList/ContactsListViewController.swift; sourceTree = SOURCE_ROOT; };
 		DA1AEB211C69A0170059887D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ContactList/Info.plist; sourceTree = SOURCE_ROOT; };
 		DA1AEB291C69A09F0059887D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ContactList/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		DA48FDB31C7428B7009382E6 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = images.xcassets; path = ContactList/images.xcassets; sourceTree = SOURCE_ROOT; };
+		DA670B891C74192600154BE2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ContactList/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		DA670B8A1C74192600154BE2 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = ContactList/LoginViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,10 +115,12 @@
 				DA045FBC1C58466700026DE6 /* Views */,
 				DA1AEB1C1C69A0170059887D /* AppDelegate.swift */,
 				DA1AEB1D1C69A0170059887D /* Assets.xcassets */,
-				DA1AEB1E1C69A0170059887D /* CategoriesViewController.swift */,
+				DA1AEB1E1C69A0170059887D /* SideViewController.swift */,
 				DA1AEB1F1C69A0170059887D /* ContactDetailViewController.swift */,
 				DA1AEB201C69A0170059887D /* ContactsListViewController.swift */,
+				DA670B891C74192600154BE2 /* LoginViewController.swift */,
 				DA1AEB211C69A0170059887D /* Info.plist */,
+				DA48FDB31C7428B7009382E6 /* images.xcassets */,
 			);
 			name = ContactList;
 			path = AppStore;
@@ -121,9 +129,10 @@
 		DA045FBC1C58466700026DE6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DA1AEB161C699FF80059887D /* CategoriesView.xib */,
+				DA1AEB161C699FF80059887D /* SideView.xib */,
 				DA1AEB171C699FF80059887D /* DetailView.xib */,
 				DA1AEB181C699FF80059887D /* StoreView.xib */,
+				DA670B8A1C74192600154BE2 /* LoginViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -220,11 +229,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA1AEB191C699FF80059887D /* CategoriesView.xib in Resources */,
+				DA1AEB191C699FF80059887D /* SideView.xib in Resources */,
+				DA48FDB41C7428B7009382E6 /* images.xcassets in Resources */,
 				DA1AEB1B1C699FF80059887D /* StoreView.xib in Resources */,
 				DA1AEB231C69A0170059887D /* Assets.xcassets in Resources */,
 				DA1AEB2A1C69A09F0059887D /* LaunchScreen.storyboard in Resources */,
 				DA1AEB1A1C699FF80059887D /* DetailView.xib in Resources */,
+				DA670B8C1C74192600154BE2 /* LoginViewController.xib in Resources */,
 				DA1AEB271C69A0170059887D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +306,8 @@
 				DA1AEB081C699F900059887D /* AddressModel.swift in Sources */,
 				DA1AEB111C699FC70059887D /* ContactsListClient.swift in Sources */,
 				DA1AEB251C69A0170059887D /* ContactDetailViewController.swift in Sources */,
-				DA1AEB241C69A0170059887D /* CategoriesViewController.swift in Sources */,
+				DA670B8B1C74192600154BE2 /* LoginViewController.swift in Sources */,
+				DA1AEB241C69A0170059887D /* SideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

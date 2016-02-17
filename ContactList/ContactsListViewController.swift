@@ -214,21 +214,7 @@ class ContactsListViewController: UIViewController, UITableViewDelegate, UITable
     
 
     func toggleCategories(){
-        NSNotificationCenter.defaultCenter().postNotificationName("updateCategories", object: nil)
         sideNavigationViewController?.toggle()
-    }
-    
-    func filterAppsByCategory(notification: NSNotification){
-        let userInfo = notification.userInfo as! [String:AnyObject]
-        if let category = userInfo["category"] {
-            selectedCategory = category as? Int
-            navigationBarView?.detailLabel?.text = categories[selectedCategory!]
-            self.appsTAble.reloadData()
-        }else{
-            selectedCategory = nil
-            navigationBarView?.detailLabel?.text = "All Categories"
-        }
-        sideNavigationViewController?.close()
     }
     
     func reachabilityChanged(note: NSNotification) {
