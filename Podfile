@@ -13,7 +13,7 @@ pod 'ObjectMapper', '~> 1.1'
 pod 'Material', '~> 1.0'
 
 #check for network status
-pod 'ReachabilitySwift', :git => 'https://github.com/ashleymills/Reachability.swift', '~> 2.3.3'
+pod 'ReachabilitySwift', :git => 'https://github.com/ashleymills/Reachability.swift'
 
 #mobile database: a replacement for SQLite & Core Data.
 pod 'RealmSwift', '~> 0.97.1'

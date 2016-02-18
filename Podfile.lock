@@ -29,12 +29,12 @@ PODS:
   - Result (1.0.1)
 
 DEPENDENCIES:
-  - FontAwesome.swift
+  - FontAwesome.swift (~> 0.7.0)
   - Material (~> 1.0)
   - Moya/ReactiveCocoa (~> 6.0.0)
   - ObjectMapper (~> 1.1)
   - ReachabilitySwift (from `https://github.com/ashleymills/Reachability.swift`)
-  - RealmSwift
+  - RealmSwift (~> 0.97.1)
 
 EXTERNAL SOURCES:
   ReachabilitySwift:

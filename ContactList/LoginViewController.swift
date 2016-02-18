@@ -46,7 +46,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         usernameTextField.resignFirstResponder()
         passwordTextField.resignFirstResponder()
         if usernameTextField.text == "Luis" && passwordTextField.text == "test"{
-            navigator.pushViewController(SideNavigationViewController(mainViewController: ContactsListViewController(), sideViewController: SideViewController()), animated: true)
+            let sideNavigationViewController = SideNavigationViewController(mainViewController: ContactsListViewController(), sideViewController: SideViewController())
+            navigator.pushViewController(sideNavigationViewController, animated: true)
             usernameTextField.text = ""
             passwordTextField.text = ""
         }else{
